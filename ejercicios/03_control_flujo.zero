@@ -1,0 +1,10 @@
+a => 1
+b => 0
+si (a > b) {
+  eco "a mayor que b"
+  b => b + 1
+}
+mientras (b < 3) {
+  eco "b =", b
+  b => b + 1
+}

@@ -1,0 +1,11 @@
+inicio => (0 - 6.283)   
+fin => 6.283    
+paso => 0.1             
+
+valor => inicio
+mientras (valor <= fin) {
+  nube([valor], [seno(valor)], "azul")
+  valor => valor + paso
+}
+
+render()

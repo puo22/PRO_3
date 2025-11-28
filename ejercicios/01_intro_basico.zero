@@ -1,0 +1,8 @@
+a => 5 + 3 * 2
+eco "Resultado:", a
+
+vec => [1, 2, 3, 4]
+eco "Vector:", vec
+
+eco "Raíz de 16:", raiz(16)
+eco "Seno de 0:", seno(0)

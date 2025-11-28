@@ -1,0 +1,6 @@
+# Ejemplo de clustering k-means
+datos => [[1,1],[1.2,1.1],[0.8,1.3],[5,5.2],[4.7,4.9],[5.1,5.3]]
+modelo => segmentar(datos, 2, 25)
+eco "Modelo segmentar:", modelo
+eco "Etiqueta del punto [0.9,1.2]:", pronosticar(modelo, [0.9,1.2])
+eco "Etiqueta del punto [5,5]:", pronosticar(modelo, [5,5])

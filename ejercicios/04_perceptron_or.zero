@@ -1,0 +1,15 @@
+X=>[[0,0],[0,1],[1,0],[1,1]]
+y=>[0,1,1,0]
+
+modelo=>red_simple(X,y,[2])
+
+eco predecir(modelo,[0,0])
+eco predecir(modelo,[0,1])
+eco predecir(modelo,[1,0])
+eco predecir(modelo,[1,1])
+
+x0=>columna(X,0)
+x1=>columna(X,1)
+
+nube(x0,x1,"azul")
+render()
